@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #50555e;
+
+}
+
+li, a, .btn, button{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 1%;
+    position: fixed;
+    width: 100%;
+}
+.logo{
+    cursor: pointer;
+}
+.nav__links{
+    list-style: none;
+}
+.nav__links li{
+    display:inline-block;
+    padding: 0px 20px;
+}
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover{
+    background-color: rgba(58, 58, 58, 0.2);
+    opacity: 0.5;
+    border: none;
+    border-radius: 50px;
+    padding: 9px 25px;
+}
+
+.btn-dark{
+    padding: 9px 25px;
+    color: #fff;
+    background-color:rgba(48, 48, 48, 0.9); 
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.btn-light{
+    padding: 9px 25px;
+    background-color: rgba(250, 250, 250, 0.9);
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+butten:hover{
+    background-color: rgba(0, 136, 169, 0)
+}
+
+.home{
+    height: 100vh;
+}
+
+.home_sec{
+    height: 100vh;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 170px 0 100px;
+}
+
+
+  .home_header h2{
+      font-size: 48px;
+      font-weight: 500;
+      margin: 0;
+  }
+  .home_header p{
+      font-size: 15px;
+  }
+
+  .home_sec:nth-child(1){
+    background-image: url(models/models.jpg);
+  }
+  .home_sec:nth-child(2){
+    background-image: url(modelx/modelx.jpg);
+  }
+  .home_sec:nth-child(3){
+    background-image: url(modely/modely.jpg);
+  }
+  .home_sec:nth-child(4){
+    background-image: url(model3/model3.jpg);
+  }
